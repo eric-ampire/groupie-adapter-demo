@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407067894580",
+    "firebase_url": "https://women-assistance.firebaseio.com",
+    "project_id": "women-assistance",
+    "storage_bucket": "women-assistance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407067894580:android:41a0c5995cec7f5bfefb61",
+        "android_client_info": {
+          "package_name": "com.zxconnect.android.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407067894580-r4atr7387a3qufuaue057drhmouuv63l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zxconnect.android.demo",
+            "certificate_hash": "382f597b43525b8e545c9b2eae8d53c6b1fe8eac"
+          }
+        },
+        {
+          "client_id": "407067894580-h83cs3sl1dqrifqqc548rltunh3m3nh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2SJZi2ie25ERH4O_Wmo6_N5flAgcpUtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407067894580-h83cs3sl1dqrifqqc548rltunh3m3nh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

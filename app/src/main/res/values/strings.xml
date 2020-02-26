@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_model">Model</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="coloration">
+        <item>#123456</item>
+        <item>#768FDB</item>
+        <item>#8BC34A</item>
+        <item>#9C27B0</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#4CAF50</item>
+    </string-array>
+</resources>
