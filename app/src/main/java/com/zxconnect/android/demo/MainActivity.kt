@@ -2,6 +2,8 @@ package com.zxconnect.android.demo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.ViewDataBinding
+import androidx.viewbinding.ViewBinding
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.databinding.BindableItem
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
@@ -23,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         recyclerView.adapter = messageAdapter
+        populateData()
 
         button.setOnClickListener {
             val message = Message(text = editText.text.toString(), sendBy = "me")
@@ -32,6 +35,17 @@ class MainActivity : AppCompatActivity() {
             editText.text.clear()
 
             receiveAutoResponse()
+        }
+    }
+
+    private fun populateData() {
+        val data = listOf<Message>()
+        data.forEach {
+            if (it.sendBy == "me") {
+                messageAdapter.add(SendMessageItem(it))
+            } else {
+                messageAdapter.add(ReceiveMessageItem(it))
+            }
         }
     }
 

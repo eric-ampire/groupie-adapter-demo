@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'com.google.gms.google-services'
 
-// Todo: Activation Android extension
+// Activation Android extension
 androidExtensions {
     experimental = true
 }
@@ -12,7 +12,7 @@ androidExtensions {
 
 android {
 
-    // Todo 2: Activate Android databinding
+    // Activate Android databinding
     dataBinding {
         enabled = true
     }
