@@ -1,3 +1,2 @@
-include ':model'
-include ':app'
+include("app")
 rootProject.name = "android-demo"
